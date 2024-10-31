@@ -1,0 +1,11 @@
+li#toplevel_page_o365-wp-restrict .wp-menu-image:before {
+    width: 20px;
+    background-image: url(../img/o365-plu.png);
+    background-size: 19px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin: 6px 0 0 5px;
+    cursor: pointer;
+    content: '';
+}

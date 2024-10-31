@@ -1,0 +1,549 @@
+charset "UTF-8";
+
+.o365_wp_restrict_page_content {
+	padding: 15px 0px;
+	width:80%;
+}
+.o365_wp_restrict_page_content label {
+	width: 43%;
+	display: table-cell;
+	font-weight: 500;
+	font-size: 15px;
+	position: relative;
+	vertical-align: top;
+	padding-left: 10px;
+	cursor: auto;
+	border-right: 1px solid #7f7f7f;
+	padding: 10px 10px;
+}
+.o365_wp_restrict_page_content div.o365_cstm_form_sec {
+	background-color: #fff;
+	padding: 0px 0px;
+	border-bottom: 1px solid #7f7f7f;
+	display: table;
+	width: 100%;
+	position:relative;
+}
+.question_block.active_help {
+	display: block;
+	visibility: visible;
+	opacity: 1;
+}
+.o365_wp_restrict_page_content div.o365_cstm_form_sec:nth-child(odd) {
+	background: #e7e7e7;
+}
+.o365_wp_restrict_page_content div.o365_cstm_form_sec:last-child {
+	padding: 7px 0px 7px 0px;
+	border-bottom: none;
+}
+.o365_wp_restrict_page_content div.o365_cstm_form_sec:last-child label {
+	border: none;
+}
+div#o365_wp_restrict_wp_role_redirect {
+	padding: 6px 0;
+}
+.o365_wp_restrict_page_content select::placeholder, .o365_wp_restrict_page_content textarea::placeholder, .o365_wp_restrict_page_content input[type=text]::placeholder{
+	color:#CCC;
+}
+.o365_wp_restrict_page_content select, .o365_wp_restrict_page_content textarea, .o365_wp_restrict_page_content input[type=text] {
+	display: table-cell;
+	width: 67%;
+	vertical-align: middle;
+	margin: 6px 6px;
+}
+.o365_wp_restrict_page_content input[type="submit"] {
+	background: #0085ba;
+	border-color: #0073aa #006799 #006799;
+	box-shadow: 0 1px 0 #006799;
+	color: #fff;
+	text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+	height: 30px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	margin: 0;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+.o365_wp_restrict_page_content input[type="submit"]:hover {
+	background: #008ec2;
+	border-color: #006799;
+	color: #fff;
+}
+.o365_wp_restrict_page_content input[type="submit"]:active {
+	background: #0073aa;
+	border-color: #006799;
+	box-shadow: inset 0 2px 0 #006799;
+	vertical-align: top;
+}
+.o365_wp_restrict_page_title h3 {
+	margin: 0px;
+	padding: 15px 10px;
+	background-color: #bfbfbf;
+}
+.o365_wp_restrict_page_title {
+	border-bottom: 1px solid #7f7f7f;
+}
+.o365_wp_restrict_page_content {
+	padding: 0;
+	border: 1px solid #7f7f7f;
+}
+div#o365_wp_restrict_wp_role_redirect table tr th.o365_data_label {
+	text-align: left;
+}
+.o365_data_row_cstm td.o365_data_row_inputs {
+	padding:  0px;
+}
+div#o365_wp_restrict_wp_role_redirect table tr th.o365_data_label, .o365_data_row_cstm td.o365_data_row_inputs {
+	width:44%;
+}
+.o365_data_row_cstm td.o365_data_row_inputs select, .o365_data_row_cstm td.o365_data_row_inputs input {
+	width: 86%;
+}
+div#o365_wp_restrict_wp_role_redirect table tr th.o365_data_label {
+	padding: 0 10px;
+}
+.add_button, .less_button {
+	cursor: pointer;
+	width: 14px !important;
+	text-align: center !important;
+	vertical-align: middle;
+	border: 1px solid #7f7f7f;
+	display: block;
+	float: right;
+	height: 12px;
+	font-size: 16px;
+	line-height: 8px;
+	font-weight: bold;
+}
+.o365_data_row_cstm td:empty {
+	display:none;
+}
+.o365_wp_restrict_proivate_chk {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 7px;
+}
+/******************an Css*****************/
+div.office-365-add-ons-wp-list-table {
+	height: 60px;
+	overflow: hidden;
+	margin: 35px 0 0 0;
+	width: 100%;
+}
+.an_right_column {
+	width: 40%;
+	float: left;
+	display:table;
+	vertical-align:middle;
+	height: 60px;
+}
+.an_left_column {
+	height: 60px;
+	display:table;
+	vertical-align:middle;
+	width: 60%;
+	float: left;
+}
+.an_clear {
+	clear:both;
+}
+.wrap .an_left_column span {
+	vertical-align: middle;
+	padding: 0 15px;
+	height: 60px;
+	display: table-cell;
+	width: 100%;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 29px;
+	margin: 0;
+}
+.an_display_cell {
+	height: 60px;
+	display: table;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.an_display_cell_inner {
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+.head-right-office-365-add-ons .an_display_cell_inner a {
+	color: #000;
+	display: inline-block;
+	vertical-align: middle;
+}
+table.office-365-add-ons-wp-list-table {
+	border-collapse: collapse;
+}
+.office-365-add-ons {
+	padding-bottom: 10px;
+}
+.head-office-365-add-ons {
+	background-color:#ccc;
+}
+.office-365-add-ons-wp-list-table .an_display_cell_inner .button-primary {
+	color: #fff !important;
+}
+.head-right-office-365-add-ons img {
+	width:25px;
+	height:auto;
+	float: left;
+}
+.head-right-office-365-add-ons span {
+	margin-left: 5px;
+	float: left;
+	vertical-align: middle;
+	font-size: 20px;
+	margin-top: 3px;
+}
+span.help_inc:after {
+	width: 15px;
+	background-image: url(../img/help-pic.png);
+	background-size: 15px;
+	height: 15px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin: 3px 0 0 5px;
+	cursor: pointer;
+	content: '';
+}
+span.help_inc:hover:after {
+	background-image: url(../img/help-pic-hover.png);
+}
+.help_main {
+    position: relative;
+    display: inline-block;
+}
+.add_button {
+    margin-right: 12px;
+}
+.question_block {
+    display: none;
+    position: absolute;
+    width: 300px;
+    background-color: #fafafa;
+    padding: 10px;
+    border: solid 4px #999;
+    border-radius: 5px;
+    z-index: 99;
+    margin-left: 5px;
+    margin-top: 0px;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 13px;
+    line-height: initial;
+    top: 20px;
+    left: -2px;
+}
+.question_block h6 {
+	color: #0074a2;
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+}
+/*************Tabs css**********/
+/* SpryTabbedPanels.css - version 0.6 - Spry Pre-Release 1.6.1 */
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+/* Horizontal Tabbed Panels
+ *
+ * The default style for a TabbedPanels widget places all tab buttons
+ * (left aligned) above the content panel.
+ */
+/* This is the selector for the main TabbedPanels container. For our
+ * default style, this container does not contribute anything visually,
+ * but it is floated left to make sure that any floating or clearing done
+ * with any of its child elements are contained completely within the
+ * TabbedPanels container, to minimize any impact or undesireable
+ * interaction with other floated elements on the page that may be used
+ * for layout.
+ *
+ * If you want to constrain the width of the TabbedPanels widget, set a
+ * width on the TabbedPanels container. By default, the TabbedPanels widget
+ * expands horizontally to fill up available space.
+ *
+ * The name of the class ("TabbedPanels") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabbedPanels container.
+ */
+.TabbedPanels {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	clear: none;
+	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+/* This is the selector for the TabGroup. The TabGroup container houses
+ * all of the tab buttons for each tabbed panel in the widget. This container
+ * does not contribute anything visually to the look of the widget for our
+ * default style.
+ *
+ * The name of the class ("TabbedPanelsTabGroup") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabGroup container.
+ */
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+/* This is the selector for the TabbedPanelsTab. This container houses
+ * the title for the panel. This is also the tab "button" that the user clicks
+ * on to activate the corresponding content panel so that it appears on top
+ * of the other tabbed panels contained in the widget.
+ *
+ * For our default style, each tab is positioned relatively 1 pixel down from
+ * where it wold normally render. This allows each tab to overlap the content
+ * panel that renders below it. Each tab is rendered with a 1 pixel bottom
+ * border that has a color that matches the top border of the current content
+ * panel. This gives the appearance that the tab is being drawn behind the
+ * content panel.
+ *
+ * The name of the class ("TabbedPanelsTab") used in this selector is not
+ * necessary to make the widget function. You can use any class name you want
+ * to style this tab container.
+ */
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	padding:6px 15px;
+	margin: 6px 1px 0px 0px;
+	font: bold 14px sans-serif;
+	background-color:#e7e7e7;
+	list-style: none;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #999;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+}
+/* This selector is an example of how to change the appearnce of a tab button
+ * container as the mouse enters it. The class "TabbedPanelsTabHover" is
+ * programatically added and removed from the tab element as the mouse enters
+ * and exits the container.
+ */
+.TabbedPanelsTabHover {
+	background-color: #bfbfbf;
+}
+/* This selector is an example of how to change the appearance of a tab button
+ * container after the user has clicked on it to activate a content panel.
+ * The class "TabbedPanelsTabSelected" is programatically added and removed
+ * from the tab element as the user clicks on the tab button containers in
+ * the widget.
+ *
+ * As mentioned above, for our default style, tab buttons are positioned
+ * 1 pixel down from where it would normally render. When the tab button is
+ * selected, we change its bottom border to match the background color of the
+ * content panel so that it looks like the tab is part of the content panel.
+ */
+.TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: 1px solid #EEE;
+	margin-top:0px;
+	padding:9px 15px;
+}
+/* This selector is an example of how to make a link inside of a tab button
+ * look like normal text. Users may want to use links inside of a tab button
+ * so that when it gets focus, the text *inside* the tab button gets a focus
+ * ring around it, instead of the focus ring around the entire tab.
+ */
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+/* This is the selector for the ContentGroup. The ContentGroup container houses
+ * all of the content panels for each tabbed panel in the widget. For our
+ * default style, this container provides the background color and borders that
+ * surround the content.
+ *
+ * The name of the class ("TabbedPanelsContentGroup") used in this selector is
+ * not necessary to make the widget function. You can use any class name you
+ * want to style the ContentGroup container.
+ */
+.TabbedPanelsContentGroup {
+	clear: both;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	background-color: #EEE;
+}
+/* This is the selector for the Content panel. The Content panel holds the
+ * content for a single tabbed panel. For our default style, this container
+ * provides some padding, so that the content is not pushed up against the
+ * widget borders.
+ *
+ * The name of the class ("TabbedPanelsContent") used in this selector is
+ * not necessary to make the widget function. You can use any class name you
+ * want to style the Content container.
+ */
+.TabbedPanelsContent {
+/*	overflow: hidden;*/
+overflow:visible;
+	padding: 20px;
+}
+/* This selector is an example of how to change the appearnce of the currently
+ * active container panel. The class "TabbedPanelsContentVisible" is
+ * programatically added and removed from the content element as the panel
+ * is activated/deactivated.
+ */
+.TabbedPanelsContentVisible {
+}
+/* Vertical Tabbed Panels
+ *
+ * The following rules override some of the default rules above so that the
+ * TabbedPanels widget renders with its tab buttons along the left side of
+ * the currently active content panel.
+ *
+ * With the rules defined below, the only change that will have to be made
+ * to switch a horizontal tabbed panels widget to a vertical tabbed panels
+ * widget, is to use the "VTabbedPanels" class on the top-level widget
+ * container element, instead of "TabbedPanels".
+ */
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+}
+/* This selector floats the TabGroup so that the tab buttons it contains
+ * render to the left of the active content panel. A border is drawn around
+ * the group container to make it look like a list container.
+ */
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+/* This selector disables the float property that is placed on each tab button
+ * by the default TabbedPanelsTab selector rule above. It also draws a bottom
+ * border for the tab. The tab button will get its left and right border from
+ * the TabGroup, and its top border from the TabGroup or tab button above it.
+ */
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+/* This selector disables the float property that is placed on each tab button
+ * by the default TabbedPanelsTab selector rule above. It also draws a bottom
+ * border for the tab. The tab button will get its left and right border from
+ * the TabGroup, and its top border from the TabGroup or tab button above it.
+ */
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+/* This selector floats the content panels for the widget so that they
+ * render to the right of the tabbed buttons.
+ */
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+form.o365_settings_general {
+	width: 80%;
+	background-color:#fff;
+}
+#TabbedPanels1 tr th, #TabbedPanels1 tr td {
+	padding: 8px 10px;
+}
+#TabbedPanels1 .form-table tr th, #TabbedPanels1 .form-table tr td {
+	border-left: solid 1px #7f7f7f;
+	border-right: solid 1px #7f7f7f;
+	border-bottom: solid 1px #7f7f7f;
+	width:50%;
+}
+#TabbedPanels1 .form-table tr th:first-child, #TabbedPanels1 .form-table tr td:first-child {
+	width:40%;
+}
+.form-table .settings-area-header th {
+	background-color: #bfbfbf;
+	border: solid 1px #7f7f7f;
+}
+#TabbedPanels1 .form-table tr td {
+	font-size:13px;
+	line-height:1.5;
+}
+#TabbedPanels1 .form-table tr td label {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+}
+#TabbedPanels1 .form-table tr:nth-child(2n) {
+	background-color: #e7e7e7;
+}
+#TabbedPanels1 .form-table tr td p {
+	margin: 0;
+	padding: 5px 0;
+	text-align: center;
+}
+#TabbedPanels1 .form-table tr td select {
+	width: 95%;
+}
+#TabbedPanels1 .form-table {
+	margin:0px;
+}
+.o365_settings_general input[type=checkbox] {
+	height: 16px !important;
+}
+#TabbedPanels1 .form-table tr td input, #TabbedPanels1 .form-table tr td select {
+	height: 28px;
+	line-height: 28px;
+}
+/* Styles for Printing */
+
+.TabbedPanelsContentVisible h3.export_heading {
+	margin-top: 0;
+}
+.TabbedPanelsContentVisible h3.read_before_heading {
+	float: left;
+	margin: 0;
+}
+h3.import_heading, .read_before_heading {
+	margin-top: 10px !important;
+	display: inline-block;
+	width: 100%;
+}
+.TabbedPanelsContentVisible h3.import_heading {
+	float: left;
+	width: 100%;
+}
+#o365-wp-restrict-please-wait-bg
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(204, 204, 240, 0.26);
+    height: 100%;
+    text-align: center;
+    display: none;
+    z-index: 1001;
+}
+/******************an Css*****************/
